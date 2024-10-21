@@ -1,0 +1,100 @@
+body{
+    background-color: #0d1224;
+    color: rgb(94, 26, 204);
+}
+.section{
+    padding: 40px;
+}
+.warm{
+    height: 100%;
+}
+.amgr{
+    display: flex;
+    
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#0d1224 ;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.logo img {
+    height: 40px;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links li {
+    display: inline;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+    font-size: 18px;
+}
+.nav-links a:hover {
+    color: #e62b2b;
+}
+.home a{
+    color: rgb(14, 14, 133);
+}
+.form-control{
+    background-color: rgb(6, 6, 73);
+    border: 1px solid rgb(207, 157, 157);
+}
+.form-control::placeholder{
+    color: rgb(109, 97, 97);
+}
+.border{
+    border: 1px solid rgb(247, 223, 180);
+    padding: 20px;
+    border-radius: 5px;
+}
+.state{
+    background-color: rgb(5, 5, 58);
+    color: rgb(9, 115, 214) ;
+    border: 1px solid rgb(16, 24, 136);
+}
+.state p{
+    color: white;
+}
+.code-editor{
+    color: rgb(204, 137, 137);
+}
+.editor{
+    color: #8575a5 ;
+}
+/* .opinion-p{
+    border: 1px solid rgb(204, 204, 233);
+} */
+
+
+/* carousel design */
+.carousel-indicators{
+    bottom: -50px;
+}
+.carousel-control-next{
+    right: -120px;
+}
+.carousel-control-prev{
+    left: -120px;
+}
+.custom-btn{
+    background-color: rgba(14, 14, 68, 0.781);
+    font-size: 18px; /* Font size */
+        padding: 10px 30px; 
+        border-radius: 10px; 
+        width: 110px;
+}
+.cst-btn{
+    background-color: #141e3f;
+}
